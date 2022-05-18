@@ -1,0 +1,55 @@
+main{
+    background-color: #FAECE1;
+    margin: 0% 15% 0% 15%;
+    padding-top: 1%;
+}
+
+.main_text{
+    font-size: 35px;
+    text-align: center;
+    color: #00342B;
+}
+
+.container_line{
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.container_line img{
+    height: 50%;
+}
+
+.container_element{
+    background-color: #E8EDEA;
+    margin-right: 1%;
+    padding: 2% 1% 2% 1%;
+    font-family: 'Oswald', sans-serif;
+    color: #00342B;
+    text-align: center;
+    max-height: 230px;
+}
+
+.container_element:hover{
+    animation: naklon 1s;
+}
+
+@keyframes naklon{
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(1deg);
+    }
+}
+
+.container_element h3{
+    font-weight: 400 !important;
+}
+
+.container_element h5{
+    font-weight: 200 !important;
+}

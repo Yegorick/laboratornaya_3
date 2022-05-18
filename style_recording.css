@@ -1,0 +1,41 @@
+main{
+    background-color: #FAECE1;
+    margin: 0% 15% 0% 15%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.main_text{
+    font-size: 35px;
+    text-align: center;
+    color: #00342B;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    height: 2em;
+    width: 30em;
+    background-color: #FAECE1;
+    border: 1px solid #000;
+}
+
+.button{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 1em);
+    background: #016855;
+    transition: 0.2s;
+    margin-top: 2%;
+    border:none;
+    width: 20em;
+}
+
+.button:hover{
+    background: #00ba3b;
+}
