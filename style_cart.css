@@ -1,0 +1,65 @@
+main{
+    background-color: #FAECE1;
+    margin: 0% 15% 0% 15%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.main_text{
+    font-size: 35px;
+    text-align: center;
+    color: #00342B;
+}
+
+.container{
+    background-color: rgba(133, 133, 133, 0.319);
+    display: flex;
+    margin: 0% 10% 5% 10%;
+    padding: 3%;
+    height: 10em;
+    border-radius: 10px;
+}
+
+.container img{
+    max-width: 25%;
+    max-height: 100%;
+}
+
+.container_text{
+    margin-left: 5%;
+    color: #00342B;
+}
+
+.container_text button{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em);
+    background: #016855;
+    transition: 0.2s;
+    margin-top: 1.5%;
+    right: 25%;
+    position: absolute;
+    border:none;
+}
+
+.container_text button:hover{
+    background: #00ba3b;
+}
+
+.buy{
+    margin: 0% 10% 5% 10%;
+    display: flex;
+}
+
+.buy button{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em calc(.6em);
+    max-height: 3em;
+    background: #016855;
+    margin-left: 68%;
+    transition: 0.2s;
+    border:none;
+}
